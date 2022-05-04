@@ -1,0 +1,82 @@
+.row{
+text-align:center;
+margin-left: auto;
+  margin-right: auto;
+    border-radius:4px;
+  }
+    footer{
+      min-height:200px;
+      background-color: black;
+      color:white;
+        border-radius:4px;
+    }
+    .boven{
+      margin-top:20px;
+    }
+    nav{
+        border-radius:4px
+    }
+    p{
+      margin-top: 30px;
+      margin-bottom: 30px;
+    }
+    .rij{
+      margin-bottom: 30px;
+    }
+
+    img{
+      width:120px;
+      height:100px;
+        border-radius:4px
+    }
+    .bottom{
+      margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 30px;
+    }
+    #groen{
+    width: 250px;
+    height: 250px;
+    animation-name: beweging;
+    animation-duration: 25s;
+    animation-fill-mode: forwards;
+    animation-iteration-count:infinite;
+    animation-direction:alternate-reverse;
+    border-radius:400px;
+    }
+    #groen{
+    background-color: green;
+    }
+    @keyframes beweging {
+    0% {background-color: green;}
+    10% {background-color: white;}
+    20% {background-color: green;}
+    30% {background-color: white;}
+    40% {background-color: green;}
+    50% {background-color: white;}
+    60% {background-color: green;}
+    70% {background-color: white;}
+    80% {background-color: green;}
+    90% {background-color: white;}
+    100% {background-color: green;}
+    }
+    input[type="text"], input[type="text"], input[type="email"], #text, #knop{
+      display: block;
+      margin: 15px 0px;
+      height:30px;
+      width:250px;
+      box-sizing: border-box;
+      border-radius: 4px;
+      text-align: center;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    #knop{
+        margin-bottom: 30px;
+    }
+    #form{
+    margin-top: 30px;
+    }
+    .card{
+    margin-bottom:30px;
+    }
